@@ -6,6 +6,7 @@ const getUserName = () => {
     defaultInput: 'User',
   });
   console.log(`Hello, ${name}!`);
+  return name;
 };
 
 export default getUserName;
