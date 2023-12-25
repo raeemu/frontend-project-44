@@ -22,5 +22,5 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  rules: { 'no-eval': 'off' },
+  rules: { 'no-eval': 'off', 'no-console': 'off', 'import/extensions': 'off' },
 };
