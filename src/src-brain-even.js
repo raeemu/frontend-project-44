@@ -8,15 +8,16 @@ const evenOrOdd = () => {
     const number = Math.floor(Math.random() * (100 - 1) + 1);
     const answer = readlineSync.question(`Question: ${number}
 Your answer: `);
-    if (number % 2 === 0 && answer === 'no') {
-      console.log(`"no" is a wrong answer ;(. The correct answer was "yes". Let's try again, ${name}`);
+    if (number % 2 === 0 && answer !== 'yes') {
+      console.log(`"${answer}" is a wrong answer ;(. The correct answer was "yes". Let's try again, ${name}`);
       break;
     }
-    if (number % 2 !== 0 && answer === 'yes') {
-      console.log(`yes" is a wrong answer ;(. The correct answer was "no". Let's try again, ${name}`);
+    if (number % 2 !== 0 && answer !== 'no') {
+      console.log(`"${answer}" is a wrong answer ;(. The correct answer was "no". Let's try again, ${name}`);
       break;
-    } else console.log('Correct!');
-    console.log(`Congratulations, ${name}!`);
+    } else if (number % 2 === 0 && answer === 'yes') console.log('Correct!');
+    else if (number % 2 !== 0 && answer === 'no') console.log('Correct!');
+    if (i === 2) console.log(`Congratulations, ${name}!`);
   }
 };
 

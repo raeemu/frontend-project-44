@@ -14,11 +14,11 @@ const calcualtor = () => {
     const answer = readlineSync.question(`Question: ${finalExpression}
 Your answer: `);
     if (answer !== trueAnswer) {
-      console.log(`${answer} is a wrong answer ;(. The correct answer was ${trueAnswer}`);
+      console.log(`${answer} is a wrong answer ;(. The correct answer was ${trueAnswer}, let's try again, ${name}`);
       break;
     } else console.log('Correct!');
+    if (i === 2) console.log(`Congratulations, ${name}!`);
   }
-  console.log(`Congratulations, ${name}!`);
 };
 
 export default calcualtor;
