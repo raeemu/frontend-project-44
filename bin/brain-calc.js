@@ -1,3 +1,3 @@
-import calcualtor from '../src/src-brain-calc.js';
+import calcualtor from '../src/games/src-brain-calc.js';
 
 calcualtor();

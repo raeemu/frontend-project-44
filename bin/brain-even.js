@@ -1,3 +1,3 @@
-import evenOrOdd from '../src/src-brain-even.js';
+import evenOrOdd from '../src/games/src-brain-even.js';
 
 evenOrOdd();

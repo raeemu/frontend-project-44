@@ -1,4 +1,4 @@
-import gameEngine from './index.js';
+import gameEngine from '../index.js';
 
 const calcualtor = () => {
   const question = 'What is the result of the expression?';
