@@ -1,17 +1,18 @@
+import { getRandomIntInclusive } from '../helpers.js';
 import gameEngine from '../index.js';
 
 const progression = () => {
   const question = 'What number is missing in the progression?';
   const progressionLogic = () => {
-    let number = Math.floor((Math.random() * 100) + 1);
-    const difference = Math.floor((Math.random() * 10) + 1);
-    const rowLength = Math.floor(Math.random() * (10 - 6) + 5);
+    let number = getRandomIntInclusive(1, 100);
+    const difference = getRandomIntInclusive(1, 10);
+    const rowLength = getRandomIntInclusive(5, 10);
     const row = [];
     while (row.length <= rowLength) {
       number += difference;
       row.push(number);
     }
-    const hiddenPosition = Math.floor(Math.random() * rowLength);
+    const hiddenPosition = getRandomIntInclusive(0, rowLength);
     const trueAnswer = row[hiddenPosition].toString();
     row[hiddenPosition] = '..';
     const finalExpression = row.join(' ');
