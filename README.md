@@ -15,3 +15,6 @@ https://asciinema.org/a/23Vou87kIiEI6H6Qh7EymzmUP
 
 ### Progression asciinema:
 https://asciinema.org/a/EqhnRXl7R2rTwvunbPEEKOrdB 
+
+### Prime number asciinema:
+https://asciinema.org/a/PIJ70X75SaoRTd6gu3BykklFR
