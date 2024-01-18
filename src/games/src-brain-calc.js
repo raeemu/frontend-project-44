@@ -8,7 +8,7 @@ const calcualtor = () => {
     const numero1 = getRandomIntInclusive(1, 25);
     const numero2 = getRandomIntInclusive(1, 25);
     const action = actions[getRandomIntInclusive(0, 2)];
-    const finalExpression = numero1 + action + numero2;
+    const finalExpression = `${numero1} ${action} ${numero2}`;
     const trueAnswer = eval(finalExpression).toString();
     return [finalExpression, trueAnswer];
   };
