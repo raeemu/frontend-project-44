@@ -4,8 +4,11 @@
 ### Codeclimate Maintainability Badge:
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d88909059c54b27396c/maintainability)](https://codeclimate.com/github/raeemu/frontend-project-44/maintainability)
 
-### Step 5 asciinema:
+### Even or odd asciinema:
 https://asciinema.org/a/tv704fwuQEW4i2jxqyGGzKrY2
 
-### Step 6 asciinema: 
+### Calculator asciinema: 
 https://asciinema.org/a/v4HSopzWv52c8aKYWAFJwmWAn
+
+### Greatest common divisor asciinema: 
+https://asciinema.org/a/23Vou87kIiEI6H6Qh7EymzmUP
